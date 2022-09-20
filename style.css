@@ -1,4 +1,79 @@
-html, body {
-  height: 100%;
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+  background: black;
+}
+
+#boxPrimario{
+  background-color: rgba(255,69,0,1);
+  width: 400px;
+  height: 400px;
+  margin-left: 60px;
+  border: 1px solid;
+  padding: 20px;
+}
+
+#fundoTransparencia{
+  box-sizing: border-box;
+  background-color: rgba(255,255,255,0.5);
   width: 100%;
+  height: 100%;
+}
+
+h1{
+  color: orangered;
+  font-size: 2em;
+  width: 440px;
+  text-align: center;
+  margin: 60px auto 40px 60px;
+}
+
+h2{
+  padding: 8px 0px;
+  font-size: 2em;
+  text-align: center;
+  text-decoration: underline;
+}
+
+li{
+  margin: 10px;
+  font-size: 20px;
+  list-style-type: none;
+/*   background-color: white; */
+}
+
+[type="text"]{
+  padding: 5px;
+  width: 300px;
+}
+
+button{
+  padding: 10px 15px;
+  font-weight: bold;
+  border-radius: 10px;
+  border: 2px solid orangered;
+  background-color: rgba(255,255,255,0.0001);
+}
+
+button:hover{
+  background-color: rgba(255,255,255,0.5);
+}
+
+button:active{
+  background-color: rgba(255,255,255,0.0001);
+}
+
+.liButton{
+  margin-top: 20px;
+}
+
+.liResultado{
+  margin-top: 40px;
+}
+
+p{
+  display: inline;
 }
